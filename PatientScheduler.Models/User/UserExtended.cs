@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PatientScheduler.Models.User
 {
@@ -13,5 +14,10 @@ namespace PatientScheduler.Models.User
         
         public List<Phones> PhoneList { get; set; }
         public List<Address> AddressList { get; set; }
+        
+        public bool Active { get; set; }
+
+        [ForeignKey("Roles")]
+        public short RoleId { get; set; }
     }
 }

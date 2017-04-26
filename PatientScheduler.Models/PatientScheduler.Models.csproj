@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Roles.cs" />
     <Compile Include="Common\States.cs" />
+    <Compile Include="Doctor\Department.cs" />
+    <Compile Include="Doctor\Doctors.cs" />
     <Compile Include="Patient\DiagnosisHistory.cs" />
     <Compile Include="Patient\DrugHistory.cs" />
     <Compile Include="Patient\MedicalHistory.cs" />
@@ -52,9 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User\User.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Doctor\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
