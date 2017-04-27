@@ -45,6 +45,9 @@
     <Compile Include="Common\States.cs" />
     <Compile Include="Doctor\Department.cs" />
     <Compile Include="Doctor\Doctors.cs" />
+    <Compile Include="Logging\ExceptionLog.cs" />
+    <Compile Include="Logging\UsageLog.cs" />
+    <Compile Include="Patient\Appointment.cs" />
     <Compile Include="Patient\DiagnosisHistory.cs" />
     <Compile Include="Patient\DrugHistory.cs" />
     <Compile Include="Patient\MedicalHistory.cs" />

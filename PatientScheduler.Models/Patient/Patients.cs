@@ -4,7 +4,7 @@ namespace PatientScheduler.Models.Patient
 {
     public class Patients
     {
-        public long PatientId { get; set; }
+        public int PatientId { get; set; }
         public User.UserExtended UserInfo { get; set; }
 
         public List<DiagnosisHistory> DiagnosisHistory { get; set; }

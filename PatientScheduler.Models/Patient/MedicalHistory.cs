@@ -13,7 +13,10 @@ namespace PatientScheduler.Models.Patient
     public class MedicalHistory
     {
         [Key]
-        public long MedicalId { get; set; }
+        public int MedicalId { get; set; }
         public string Notes { get; set; }
+
+        public int CreatedBy { get; set; }
+        public DateTime CreatedOn { get; set; }
     }
 }
